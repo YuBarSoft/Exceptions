@@ -37,7 +37,7 @@ class PhoneNumException(Exception):
 
     def __str__(self):
         return f'''\tError Code: 6
-\tТелефонный номер должен состоять из 10 цифр. Вы ввели: {self.phone} (цифр - {len(self.phone)})'''
+\tТелефонный номер должен состоять из 10 цифр. Вы ввели: {self.phone})'''
 
 
 class GenderException(Exception):
